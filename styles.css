@@ -19,10 +19,18 @@ body {
     padding: 20px;
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.banner {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
 }
 
 #linktree h1 {
-    color: #008211;
+    color: #ff0000; /* Red color for the title */
     margin-bottom: 10px;
 }
 
@@ -34,8 +42,8 @@ body {
 
 #linktree a {
     display: block;
-    background-color: #ffce1f;
-    color: #000;
+    background-color: #008211; /* Green tone for buttons */
+    color: #ffce1f; /* Yellow tone for text in buttons */
     text-decoration: none;
     padding: 10px;
     margin: 10px 0;
@@ -45,7 +53,6 @@ body {
 }
 
 #linktree a:hover {
-    background-color: #ff0000;
+    background-color: #ff0000; /* Red on hover */
     color: #fff;
 }
-
